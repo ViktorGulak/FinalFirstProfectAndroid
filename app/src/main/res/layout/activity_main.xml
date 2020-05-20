@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:text="Регистрация"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="764dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="211dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="592dp"
+        android:width="200dp"
+        android:height="75dp"
+        android:background="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="545dp"
+        tools:text="Пароль" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вход в систему"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:width="200dp"
+        android:background="@color/colorPrimary"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Эл. почта"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="208dp"
+        android:layout_height="62dp"
+        android:text="Войти"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="681dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
